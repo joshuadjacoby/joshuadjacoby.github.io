@@ -1,0 +1,16 @@
+/* Establishes color variables */
+:root {
+    --orange: #fb7e14;
+    --black: #000000;
+    --gray: #696969;
+    --white: #ffffff;
+}
+
+.navbar-expand-lg {
+	background-color: var(--orange) !important;
+	border-bottom: none;
+}
+
+.header {
+	background-color: var(--orange);
+}
