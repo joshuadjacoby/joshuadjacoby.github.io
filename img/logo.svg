@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="337px" height="304px" viewBox="0 0 337 304" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <ellipse id="Oval" stroke="#FD7323" stroke-width="24" fill="#000000" stroke-linejoin="round" cx="158.5" cy="153.5" rx="127.5" ry="123.5"></ellipse>
+        <g id="J_2" transform="translate(85.000000, 20.000000)" stroke="#FD7323">
+            <g id="J">
+                <g>
+                    <path d="M28.8461538,66.2323944 L64.6153846,66.2323944" id="Line" stroke-width="18" stroke-linecap="square"></path>
+                    <path d="M64.0384615,67.4366197 L64.0384615,144.507042" id="Line" stroke-width="19" stroke-linecap="square"></path>
+                    <path d="M0,150.528169 C21.9230769,176.21831 43.4615385,177.623239 64.6153846,154.742958 L64.6153846,134.873239" id="Path-3" stroke-width="18"></path>
+                </g>
+            </g>
+        </g>
+        <g id="J_2" transform="translate(141.000000, 62.000000)" stroke="#FD7323">
+            <g id="J">
+                <g>
+                    <path d="M28.8461538,66.2323944 L64.6153846,66.2323944" id="Line" stroke-width="18" stroke-linecap="square"></path>
+                    <path d="M64.0384615,67.4366197 L64.0384615,144.507042" id="Line" stroke-width="19" stroke-linecap="square"></path>
+                    <path d="M0,150.528169 C21.9230769,176.21831 43.4615385,177.623239 64.6153846,154.742958 L64.6153846,134.873239" id="Path-3" stroke-width="18"></path>
+                </g>
+            </g>
+        </g>
+        <path d="M158.5,76.5 L158.5,182.5" id="Line" stroke="#000000" stroke-linecap="square"></path>
+        <path d="M214.5,99.5 L214.5,222.5" id="Line" stroke="#000000" stroke-linecap="square"></path>
+    </g>
+</svg>
