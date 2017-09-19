@@ -441,6 +441,11 @@ header.masthead .intro-text .skills {
     color: var(--black);
 }
 
+#about img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
 form .row:first-child .floating-label-form-group {
     border-top: 1px solid var(--white);
 }
@@ -482,6 +487,15 @@ header.masthead .btn-outline {
 }
 .col-md-4 p {
 	color: var(--gray);
+}
+
+.btn-primary {
+  background-color: var(--orange);
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: var(--gray) !important;
 }
 
 .btn-outline {
