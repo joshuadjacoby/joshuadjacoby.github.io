@@ -395,9 +395,17 @@ header.masthead .intro-text .skills {
     margin: 0 auto 20px;
 }
 
-/* TODO change text placeholder color */
-.form-group input, .form-group textarea {
-    color: red !important;
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: var(--gray) !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: var(--gray) !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: var(--gray) !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: var(--gray) !important;
 }
 
 footer {
@@ -439,13 +447,16 @@ header.masthead .btn-outline {
 	color: var(--gray);
 }
 
-/* TODO make colors the same as default but use var(--gray) */
 .btn-primary {
-  background-color: var(--orange);
+	background-color: var(--orange);
 }
 
-.btn-primary:hover {
-  background-color: var(--gray) !important;
+.btn-primary:hover, .btn-primary:focus {
+	background-color: var(--gray) !important;
+}
+
+.btn-primary:active {
+	opacity: .6 !important;
 }
 
 .btn-outline {
