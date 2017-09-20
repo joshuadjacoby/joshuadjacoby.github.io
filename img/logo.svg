@@ -5,8 +5,8 @@
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <ellipse id="Oval" stroke="#FD7323" stroke-width="24" fill="#000000" stroke-linejoin="round" cx="158.5" cy="153.5" rx="127.5" ry="123.5"></ellipse>
-        <g id="J_2" transform="translate(85.000000, 20.000000)" stroke="#FD7323">
+        <ellipse id="Oval" stroke="#FB7E14" stroke-width="24" fill="#000000" stroke-linejoin="round" cx="158.5" cy="153.5" rx="127.5" ry="123.5"></ellipse>
+        <g id="J_2" transform="translate(85.000000, 20.000000)" stroke="#FB7E14">
             <g id="J">
                 <g>
                     <path d="M28.8461538,66.2323944 L64.6153846,66.2323944" id="Line" stroke-width="18" stroke-linecap="square"></path>
@@ -15,7 +15,7 @@
                 </g>
             </g>
         </g>
-        <g id="J_2" transform="translate(141.000000, 62.000000)" stroke="#FD7323">
+        <g id="J_2" transform="translate(141.000000, 62.000000)" stroke="#FB7E14">
             <g id="J">
                 <g>
                     <path d="M28.8461538,66.2323944 L64.6153846,66.2323944" id="Line" stroke-width="18" stroke-linecap="square"></path>
