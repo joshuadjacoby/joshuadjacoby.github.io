@@ -447,8 +447,12 @@ header.masthead .btn-outline {
 .fa-circle {
 	color: var(--orange);
 }
+
+.col-md-4 h3 {
+	color: var(--orange);
+}
 .col-md-4 p {
-	color: var(--gray);
+	color: var(--white);
 }
 
 .form-group {
