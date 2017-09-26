@@ -120,6 +120,8 @@ section.fail {
     height: 50px;
 }
 
+/* TODO make scroll-top button not change color when clicked */
+
 .scroll-top .btn {
     font-size: 16px;
     line-height: 28px;
