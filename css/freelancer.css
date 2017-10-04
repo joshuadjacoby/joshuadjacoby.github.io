@@ -486,12 +486,8 @@ header.masthead .btn-outline {
 	opacity: .6 !important;
 }
 
-.btn-primary-modal {
-
-}
-
 .btn-primary-modal:hover {
-    border-width: 0;
+    border-color: var(--gray);
     background-color: var(--black) !important;
 }
 
