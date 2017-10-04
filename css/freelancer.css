@@ -332,11 +332,15 @@ header.masthead .intro-text .traits {
 	color: var(--white);
 }
 
+.modal-body p {
+    color: var(--black);
+}
+
 .portfolio-modal .modal-dialog .modal-content {
     padding: 100px 0;
     border: 0;
     border-radius: 0;
-	background-color: var(--gray);
+    background-color: var(--gray);
 }
 
 .portfolio-modal .modal-dialog .modal-content h2 {
@@ -394,6 +398,10 @@ header.masthead .intro-text .traits {
 .portfolio-modal .modal-backdrop {
     display: none;
     opacity: 0;
+}
+
+.list-inline li {
+    color: var(--black);
 }
 
 #about img {
@@ -478,6 +486,15 @@ header.masthead .btn-outline {
 	opacity: .6 !important;
 }
 
+.btn-primary-modal {
+
+}
+
+.btn-primary-modal:hover {
+    border-width: 0;
+    background-color: var(--black) !important;
+}
+
 .btn-outline {
     font-size: 20px;
     margin-top: 15px;
@@ -535,51 +552,6 @@ header.masthead .btn-outline {
 
 .btn-primary .badge {
     color: var(--orange);
-    background-color: var(--white);
-}
-
-.btn-success {
-    font-weight: 700;
-    color: var(--white);
-    border-color: var(--black);
-    background-color: var(--black);
-}
-
-.btn-success.focus, .btn-success:focus {
-    color: var(--white);
-    border-color: var(--gray);
-    background-color: var(--orange);
-}
-
-.btn-success:hover {
-    color: var(--white);
-    border-color: var(--white);
-    background-color: var(--orange);
-}
-
-.btn-success.active, .btn-success:active, .open>.btn-success.dropdown-toggle {
-    color: var(--white);
-    border-color: var(--white);
-    background-color: var(--orange);
-}
-
-.btn-success.active.focus, .btn-success.active:focus, .btn-success.active:hover, .btn-success:active.focus, .btn-success:active:focus, .btn-success:active:hover, .open>.btn-success.dropdown-toggle.focus, .open>.btn-success.dropdown-toggle:focus, .open>.btn-success.dropdown-toggle:hover {
-    color: var(--white);
-    border-color: var(--black);
-    background-color: var(--black);
-}
-
-.btn-success.active, .btn-success:active, .open>.btn-success.dropdown-toggle {
-    background-image: none;
-}
-
-.btn-success.disabled.focus, .btn-success.disabled:focus, .btn-success.disabled:hover, .btn-success[disabled].focus, .btn-success[disabled]:focus, .btn-success[disabled]:hover, fieldset[disabled] .btn-success.focus, fieldset[disabled] .btn-success:focus, fieldset[disabled] .btn-success:hover {
-    border-color: var(--black);
-    background-color: var(--black);
-}
-
-.btn-success .badge {
-    color: var(--black);
     background-color: var(--white);
 }
 
