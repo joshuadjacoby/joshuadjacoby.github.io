@@ -486,9 +486,17 @@ header.masthead .btn-outline {
 	opacity: .6 !important;
 }
 
-.btn-primary-modal:hover {
+.btn-primary-modal {
+    color: var(--white) !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+/* TODO make button not black when go back after opening new tab */
+.btn-primary-modal:hover, .btn-primary-modal:focus {
     border-color: var(--gray);
     background-color: var(--black) !important;
+    cursor: default;
 }
 
 .btn-outline {
