@@ -4,9 +4,10 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE)
  */
 
+
 /* Establishes color variables */
 
- :root {
+:root {
     --orange: #FB7E14;
     --black: #000000;
     --gray: #696969;
@@ -26,18 +27,28 @@ p.small {
     font-size: 16px;
 }
 
-a, a.active, a:active, a:focus, a:hover {
+a,
+a.active,
+a:active,
+a:focus,
+a:hover {
     color: var(--black);
     outline: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
 }
 
-hr.star-light, hr.star-primary {
+hr.star-light,
+hr.star-primary {
     max-width: 250px;
     margin: 25px auto 30px;
     padding: 0;
@@ -46,7 +57,8 @@ hr.star-light, hr.star-primary {
     border-top: solid 5px;
 }
 
-hr.star-light:after, hr.star-primary:after {
+hr.star-light:after,
+hr.star-primary:after {
     font-family: FontAwesome;
     font-size: 2em;
     position: relative;
@@ -119,6 +131,7 @@ section.fail {
     height: 50px;
 }
 
+
 /* TODO make scroll-top button not change color when clicked */
 
 .scroll-top .btn {
@@ -151,7 +164,10 @@ section.fail {
     color: var(--white);
 }
 
-#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+#mainNav .navbar-brand.active,
+#mainNav .navbar-brand:active,
+#mainNav .navbar-brand:focus,
+#mainNav .navbar-brand:hover {
     color: var(--white);
 }
 
@@ -168,7 +184,8 @@ section.fail {
     outline: none;
 }
 
-#mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+#mainNav .navbar-nav li.nav-item a.nav-link:active,
+#mainNav .navbar-nav li.nav-item a.nav-link:focus {
     color: var(--white);
 }
 
@@ -180,7 +197,8 @@ section.fail {
     border-color: var(--white);
 }
 
-#mainNav .navbar-toggler:focus, #mainNav .navbar-toggler:hover {
+#mainNav .navbar-toggler:focus,
+#mainNav .navbar-toggler:hover {
     color: var(--white);
     border-color: var(--black);
     background-color: var(--black);
@@ -205,7 +223,9 @@ section.fail {
         border-radius: 3px;
         background: var(--black);
     }
-    #mainNav .navbar-nav>li.nav-item>a.nav-link.active:active, #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus, #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
+    #mainNav .navbar-nav>li.nav-item>a.nav-link.active:active,
+    #mainNav .navbar-nav>li.nav-item>a.nav-link.active:focus,
+    #mainNav .navbar-nav>li.nav-item>a.nav-link.active:hover {
         color: var(--white);
         background: var(--black);
     }
@@ -300,7 +320,8 @@ header.masthead .intro-text .traits {
     margin-top: -12px;
 }
 
-#portfolio .portfolio-item .portfolio-link .caption .caption-content h3, #portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
     margin: 0;
 }
 
@@ -328,7 +349,7 @@ header.masthead .intro-text .traits {
 }
 
 .modal-body h2 {
-	color: var(--white);
+    color: var(--white);
 }
 
 .modal-body p {
@@ -408,24 +429,35 @@ header.masthead .intro-text .traits {
     margin: 0 auto 20px;
 }
 
-::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: var(--gray) !important;
+::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: var(--gray) !important;
 }
-::-moz-placeholder { /* Firefox 19+ */
-  color: var(--gray) !important;
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: var(--gray) !important;
 }
-:-ms-input-placeholder { /* IE 10+ */
-  color: var(--gray) !important;
+
+:-ms-input-placeholder {
+    /* IE 10+ */
+    color: var(--gray) !important;
 }
-:-moz-placeholder { /* Firefox 18- */
-  color: var(--gray) !important;
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: var(--gray) !important;
 }
 
 footer {
     color: var(--white);
 }
 
-footer a, footer a.active, footer a:active, footer a:focus, footer a:hover {
+footer a,
+footer a.active,
+footer a:active,
+footer a:focus,
+footer a:hover {
     color: var(--black);
     outline: none;
 }
@@ -449,40 +481,44 @@ footer .footer-below {
 }
 
 header.masthead .btn-outline {
-	background-color: var(--orange);
-	outline: none;
+    background-color: var(--orange);
+    outline: none;
 }
 
 .fa-circle {
-	color: var(--orange);
+    color: var(--orange);
 }
 
 .col-md-4 h3 {
-	color: var(--orange);
+    color: var(--orange);
 }
+
 .col-md-4 p {
-	color: var(--white);
+    color: var(--white);
 }
 
 .form-group {
-	color: var(--white) !important;
+    color: var(--white) !important;
 }
 
 .form-group input {
-	color: var(--black) !important;
+    color: var(--black) !important;
 }
+
 
 /* TODO figure out how to change blue color for when form submitted */
+
 .btn-primary {
-	background-color: var(--orange);
+    background-color: var(--orange);
 }
 
-.btn-primary:hover, .btn-primary:focus {
-	background-color: var(--gray) !important;
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: var(--gray) !important;
 }
 
 .btn-primary:active {
-	opacity: .6 !important;
+    opacity: .6 !important;
 }
 
 .btn-primary-modal {
@@ -491,8 +527,11 @@ header.masthead .btn-outline {
     box-shadow: none !important;
 }
 
+
 /* TODO make button not black when go back after opening new tab */
-.btn-primary-modal:hover, .btn-primary-modal:focus {
+
+.btn-primary-modal:hover,
+.btn-primary-modal:focus {
     border-color: var(--gray);
     background-color: var(--black) !important;
     cursor: default;
@@ -507,7 +546,10 @@ header.masthead .btn-outline {
     background: transparent;
 }
 
-.btn-outline:hover, .btn-outline.active, .btn-outline:active, .btn-outline:focus {
+.btn-outline:hover,
+.btn-outline.active,
+.btn-outline:active,
+.btn-outline:focus {
     color: var(--orange);
     border: solid 2px var(--white);
     background: var(--white);
@@ -520,7 +562,8 @@ header.masthead .btn-outline {
     background-color: var(--orange);
 }
 
-.btn-primary.focus, .btn-primary:focus {
+.btn-primary.focus,
+.btn-primary:focus {
     color: var(--white);
     border-color: var(--black);
     background-color: #1a252f;
@@ -532,23 +575,43 @@ header.masthead .btn-outline {
     background-color: #1a252f;
 }
 
-.btn-primary.active, .btn-primary:active, .open>.btn-primary.dropdown-toggle {
+.btn-primary.active,
+.btn-primary:active,
+.open>.btn-primary.dropdown-toggle {
     color: var(--white);
     border-color: #161f29;
     background-color: #1a252f;
 }
 
-.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.btn-primary.dropdown-toggle.focus, .open>.btn-primary.dropdown-toggle:focus, .open>.btn-primary.dropdown-toggle:hover {
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.open>.btn-primary.dropdown-toggle.focus,
+.open>.btn-primary.dropdown-toggle:focus,
+.open>.btn-primary.dropdown-toggle:hover {
     color: var(--white);
     border-color: var(--black);
     background-color: #0d1318;
 }
 
-.btn-primary.active, .btn-primary:active, .open>.btn-primary.dropdown-toggle {
+.btn-primary.active,
+.btn-primary:active,
+.open>.btn-primary.dropdown-toggle {
     background-image: none;
 }
 
-.btn-primary.disabled.focus, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled].focus, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover {
+.btn-primary.disabled.focus,
+.btn-primary.disabled:focus,
+.btn-primary.disabled:hover,
+.btn-primary[disabled].focus,
+.btn-primary[disabled]:focus,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary.focus,
+fieldset[disabled] .btn-primary:focus,
+fieldset[disabled] .btn-primary:hover {
     border-color: var(--orange);
     background-color: var(--orange);
 }
@@ -569,29 +632,32 @@ header.masthead .btn-outline {
     border-radius: 100%;
 }
 
-.btn.active, .btn:active, .btn:focus {
+.btn.active,
+.btn:active,
+.btn:focus {
     outline: none;
 }
 
 .carousel-inner .carousel-item .img-vertical {
     margin: 0 auto;
-	width: 50%;
+    width: 50%;
 }
 
 .carousel-inner .carousel-item .img-horizontal {
     margin: 0 auto;
-	width: 100%;
+    width: 100%;
 }
 
 .carousel-control-prev-icon {
-	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#FB7E14' viewBox='0 0 8 8'%3E%3Cpath d='M4 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#FB7E14' viewBox='0 0 8 8'%3E%3Cpath d='M4 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
 
 .carousel-control-next-icon {
-	background-image : url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#FB7E14' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#FB7E14' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
 }
 
-.carousel-control-prev-icon, .carousel-control-next-icon {
-	width: 50px;
-	height: 50px;
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 50px;
+    height: 50px;
 }
